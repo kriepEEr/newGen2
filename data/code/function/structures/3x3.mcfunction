@@ -1,0 +1,9 @@
+summon interaction ~ ~ ~
+summon interaction ~16 ~ ~
+summon interaction ~33 ~ ~
+summon interaction ~ ~ ~16
+summon interaction ~16 ~ ~16
+summon interaction ~33 ~ ~16
+summon interaction ~ ~ ~33
+summon interaction ~16 ~ ~33
+summon interaction ~33 ~ ~33
