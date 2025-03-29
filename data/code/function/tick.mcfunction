@@ -30,3 +30,4 @@ function trigger:help
 function trigger:about
 function trigger:world
 function code:structures/spawn
+kill @e[type=falling_block]
