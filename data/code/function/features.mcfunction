@@ -46,3 +46,8 @@ execute if entity @s[scores={F=2}] run place feature minecraft:patch_brown_mushr
 execute if entity @s[scores={F=3}] run place feature minecraft:patch_red_mushroom ~1 ~ ~1
 execute if entity @s[scores={F=4}] run place feature minecraft:glow_lichen ~1 ~ ~1
 execute if entity @s[scores={F=5}] run place feature minecraft:lake_lava ~1 ~ ~1
+execute if entity @s[scores={F=6}] run place feature minecraft:end_island ~1 ~20 ~1
+execute if entity @s[scores={F=6}] run place feature minecraft:chorus_plant ~1 ~21 ~3
+execute if entity @s[scores={F=6}] run place feature minecraft:chorus_plant ~-4 ~21 ~
+
+

@@ -4,7 +4,7 @@ execute store result score @s B run random value 1..9
 execute store result score @s C run random value 1..9
 execute store result score @s D run random value 1..8
 execute store result score @s E run random value 1..7
-execute store result score @s F run random value 1..5
+execute store result score @s F run random value 1..32
 #F  for features
 execute store result score @a G run random value 1..32
 execute store result score @s H run random value 1..32
