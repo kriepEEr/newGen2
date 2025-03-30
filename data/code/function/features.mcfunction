@@ -49,5 +49,8 @@ execute if entity @s[scores={F=5}] run place feature minecraft:lake_lava ~1 ~ ~1
 execute if entity @s[scores={F=6}] run place feature minecraft:end_island ~1 ~20 ~1
 execute if entity @s[scores={F=6}] run place feature minecraft:chorus_plant ~1 ~21 ~3
 execute if entity @s[scores={F=6}] run place feature minecraft:chorus_plant ~-4 ~21 ~
+execute if entity @s[scores={F=7}] run place feature minecraft:end_island ~9 ~31 ~9
+execute if entity @s[scores={F=7}] run place feature minecraft:chorus_plant ~9 ~32 ~9
+execute if entity @s[scores={F=7}] run place feature minecraft:chorus_plant ~4 ~32 ~9
 
 

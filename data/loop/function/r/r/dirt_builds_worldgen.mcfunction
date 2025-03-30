@@ -24,7 +24,7 @@ execute if score @s R matches 3 run fill ~ ~ ~ ~2 ~2 ~2 ice
 execute if score @s R matches 4 run fill ~ ~ ~ ~1 ~ ~1 water
 execute if score @s R matches 5 run fill ~-2 ~ ~-2 ~ ~ ~ grass_block
 execute if score @s R matches 6 run fill ~-2 ~ ~ ~1 ~ ~2 lava
-execute if score @s R matches 7 run fill ~4 ~6 ~-2 ~2 ~4 ~2 coarse_dirt
+execute if score @s R matches 7 run fill ~4 ~6 ~-2 ~2 ~4 ~2 dirt
 execute if score @s R matches 8 run fill ~-2 ~ ~-2 ~ ~-1 ~ mud
 execute if score @s R matches 9 run fill ~ ~ ~ ~2 ~2 ~2 clay
 execute if score @s R matches 10 run fill ~-2 ~ ~ ~-2 ~ ~ sculk_catalyst
@@ -42,7 +42,7 @@ execute if score @s R matches 21 run fill ~ ~ ~-2 ~ ~ ~2 moss_block
 execute if score @s R matches 22 run fill ~-2 ~ ~-2 ~ ~-46 ~ green_terracotta
 execute if score @s R matches 23 run fill ~ ~ ~ ~2 ~2 ~2 ice
 execute if score @s R matches 24 run fill ~ ~-30 ~ ~ ~-33 ~ cobweb
-execute if score @s R matches 25 run fill ~-2 ~ ~-2 ~ ~ ~ grass_block
+execute if score @s R matches 25 run fill ~-2 ~ ~-2 ~ ~ ~ dirt_path
 execute if score @s R matches 26 run fill ~-2 ~-2 ~ ~1 ~-2 ~2 grass_block
 execute if score @s R matches 27 run fill ~ ~ ~-2 ~ ~ ~2 deepslate
 execute if score @s R matches 28 run fill ~-2 ~ ~-2 ~ ~-1 ~ mud
