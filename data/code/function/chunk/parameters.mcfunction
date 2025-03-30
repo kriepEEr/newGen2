@@ -21,10 +21,10 @@ execute store result score @s R run random value 1..30
 execute store result score @a S run random value 1..8
 execute store result score @a T run random value 1..32
 execute store result score @a U run random value 1..16
-execute store result score @s V run random value 1..4
-execute store result score @s W run random value 1..4
-execute store result score @s X run random value 1..4
-execute store result score @s Y run random value 1..4
-execute store result score @s Z run random value 1..4
+execute store result score @s V run random value 1..256
+execute store result score @s W run random value 1..256
+execute store result score @s X run random value 1..256
+execute store result score @s Y run random value 1..256
+execute store result score @s Z run random value 1..256
 execute store result score @a 0 run random value 1..32
 tag @s add gen
