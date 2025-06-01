@@ -21,9 +21,9 @@ execute if score @s Q matches 8 run fill ~-6 ~ ~-2 ~-4 8 ~1 sand
 execute if score @s R matches 1 run fill ~ ~ ~-2 ~ ~ ~2 moss_block
 execute if score @s R matches 2 run fill ~-2 ~ ~-2 ~ ~-46 ~ sandstone
 execute if score @s R matches 3 run fill ~ ~ ~ ~2 ~2 ~2 ice
-execute if score @s R matches 4 run fill ~ ~ ~ ~1 ~ ~1 water
+execute if score @s R matches 4 run fill ~ ~-1 ~ ~1 ~-2 ~1 ice
 execute if score @s R matches 5 run fill ~-2 ~ ~-2 ~ ~ ~ grass_block
-execute if score @s R matches 6 run fill ~-2 ~ ~ ~1 ~ ~2 lava
+execute if score @s R matches 6 run fill ~-2 ~ ~ ~1 ~ ~2 magma_block
 execute if score @s R matches 7 run fill ~4 ~6 ~-2 ~2 ~4 ~2 dirt
 execute if score @s R matches 8 run fill ~-2 ~ ~-2 ~ ~-1 ~ mud
 execute if score @s R matches 9 run fill ~ ~ ~ ~2 ~2 ~2 clay
@@ -31,10 +31,10 @@ execute if score @s R matches 10 run fill ~-2 ~ ~ ~-2 ~ ~ sculk_catalyst
 execute if score @s R matches 11 run fill ~ ~ ~-2 ~ ~ ~2 moss_block
 execute if score @s R matches 12 run fill ~-2 ~ ~-2 ~ ~-46 ~ sandstone
 execute if score @s R matches 13 run fill ~-1 ~ ~ ~1 ~4 ~1 grass_block
-execute if score @s R matches 14 run fill ~ ~ ~ ~1 ~ ~1 water
-execute if score @s R matches 15 run fill ~-2 ~ ~-2 ~ ~ ~ grass_block
-execute if score @s R matches 16 run fill ~-2 ~ ~ ~1 ~ ~2 tuff
-execute if score @s R matches 17 run fill ~ ~ ~-2 ~ ~ ~2 crimson_nylium
+execute if score @s R matches 14 run fill ~-6 ~-1 ~-6 ~6 ~-1 ~6 ice keep
+execute if score @s R matches 15 run fill ~-2 ~-1 ~-2 ~ ~-1 ~ grass_block
+execute if score @s R matches 16 run fill ~-2 ~ ~ ~1 ~-1 ~2 tuff
+execute if score @s R matches 17 run fill ~ ~ ~-2 ~ ~-6 ~2 crimson_nylium
 execute if score @s R matches 18 run fill ~-5 ~ ~-2 ~ ~-1 ~ air
 execute if score @s R matches 19 run fill ~ ~ ~ ~2 ~2 ~2 clay
 execute if score @s R matches 20 run place structure nether_fossil

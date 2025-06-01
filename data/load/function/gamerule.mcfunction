@@ -5,3 +5,4 @@ gamerule commandModificationBlockLimit 999999999
 schedule function code:chunk/load/proximity 22t
 gamerule sendCommandFeedback false
 difficulty easy
+gamerule keepInventory true
