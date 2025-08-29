@@ -2,7 +2,7 @@ fill -2 60 -2 2 60 2 minecraft:bedrock
 fill -1 60 -1 1 60 1 minecraft:barrier
 fill -1 61 -1 1 61 1 minecraft:air destroy
 fill -1 61 -1 1 63 1 minecraft:air
-setblock 0 62 1 stone_button
+setblock 0 62 1 stone_button keep
 setblock 0 62 2 command_block{Command:"execute as @p run trigger world",CustomName:'"s"'}
 
 fill 95 -64 95 144 100 95 barrier
