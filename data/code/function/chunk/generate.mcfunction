@@ -4,6 +4,8 @@ particle minecraft:cloud ~8 ~8 ~8 1 1 1 1 100
 playsound minecraft:block.amethyst_cluster.hit block @p ~8 ~8 ~8 40 1 1 
 playsound minecraft:ambient.basalt_deltas.mood block @p ~8 ~8 ~8 40 1 1 
 
+execute store result score @s H run random value 1..16
+execute if score @s H matches 1 run tp @s ~ ~16 ~
 summon minecraft:marker ~ ~ ~
 summon minecraft:pig ~ ~-1 ~ {NoAI:1b}
 tag @e[type=minecraft:pig,limit=1,sort=nearest] add fillin

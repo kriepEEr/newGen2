@@ -11,7 +11,7 @@ fill 95 -64 144 144 100 144 barrier
 fill 144 -64 95 144 100 144 barrier
 
 
-fill 1030 100 6 1034 100 10 minecraft:bedrock
-fill 1031 100 7 1033 100 9 minecraft:barrier
-fill 1031 101 7 1033 101 9 minecraft:air destroy
-fill 1031 101 7 1033 103 9 minecraft:air
+fill 1030 50 6 1034 50 10 minecraft:bedrock
+fill 1031 50 7 1033 50 9 minecraft:barrier
+fill 1031 51 7 1033 51 9 minecraft:air destroy
+fill 1031 51 7 1033 53 9 minecraft:air
